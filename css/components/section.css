@@ -1,0 +1,27 @@
+section {
+  padding: 70px 0;
+}
+
+.about, .skills, .anuncios, .contact, footer {
+  font-family: 'Poppins', sans-serif;
+}
+
+.about .about-content,
+.skills .skills-content,
+.anuncios .anuncios-content,
+footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section .title {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'Ubuntu', sans-serif;
+}

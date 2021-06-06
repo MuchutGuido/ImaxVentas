@@ -1,0 +1,96 @@
+.anuncios .anuncios-content .card {
+  background-color: #fafafa;
+  width: calc(33% - 20px);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid gainsboro;
+}
+
+.anuncios .anuncios-content .card:hover {
+  transform: scale(1.05);
+}
+
+.anuncios .anuncios-content .card img {
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.anuncios .anuncios-content .card .box {
+  margin: 20px 10px 10px 10px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.anuncios .anuncios-content .card .box .text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.anuncios .anuncios-content .card .box p {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.anuncios .anuncios-content .card .box .precio {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.anuncios .anuncios-content .card .box .caracteristicas {
+  width: 70%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.anuncios .anuncios-content .card .box .caracteristicas img {
+  height: 100%;
+  width: 35px;
+}
+
+.anuncios .anuncios-content .card .box .caracteristicas span {
+  margin-right: 15px;
+}
+
+.anuncios .anuncios-content .card .box a {
+  display: block;
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border: 2px solid var(--primary-color);
+  transform: all 0.3s ease;
+}
+
+.anuncios .anuncios-content .card .box a:hover {
+  color: var(--primary-color);
+  background: none;
+}
+
+.anuncios .derecha {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.anuncios .derecha a {
+  background-color: var(--secondary-color);
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border: 2px solid var(--secondary-color);
+  transform: all 0.3s ease;
+}
+
+.anuncios .derecha a:hover {
+  color: var(--secondary-color);
+  background: none;
+}

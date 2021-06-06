@@ -1,0 +1,32 @@
+footer {
+  background: #332f2c;
+  padding: 20px 60px;
+  color: #bdbdbd;
+  font-size: 14px;
+}
+
+footer .footer-content .column {
+  width: calc(50% - 30px);
+}
+
+footer .footer-content .left a{
+  margin-right: 8px;
+  color: #bdbdbd;
+}
+
+footer .footer-content .left a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-content .right {
+  text-align: right;
+}
+
+footer span a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
